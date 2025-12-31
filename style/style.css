@@ -1,0 +1,101 @@
+/* 
+
+NATOM PALETTE
+
+White: EDE9D8
+Yellow: C7A938
+Blue: 3E6C9F
+
+Red: AA4E48
+Dark yellow: 9B8120
+Dark blue: 194A77
+Dark gray: 2A2A29
+Black: 202020
+
+
+*/
+
+@font-face { font-family: 'Montserrat Semibold'; src: url('Montserrat-SemiBold.otf'); } 
+@font-face { font-family: 'Montserrat Regular'; src: url('Montserrat-Regular.otf'); } 
+@font-face { font-family: 'Montserrat Bold'; src: url('Montserrat-Bold.otf'); } 
+@font-face { font-family: 'Lucidity Condensed'; src: url('lucidity-condensed.ttf'); } 
+
+body {
+  width: 100%;
+  padding:0px;
+  margin: 50px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
+  background-color: #062844;
+}
+
+/* FONTS */
+
+h1 {
+  font-family: "Aubrey", sans-serif;
+  font-weight: 700;
+  font-size: 2.8em;
+  color: #d7b030;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+h2 {
+  font-family: "Aubrey", sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  color: #efd466;
+  padding: 0px;
+  margin: 40px 0px 10px 0px;
+}
+
+h3 {
+  font-family: "Aubrey", sans-serif;
+  font-size: 1.6em;
+  color: #efd466;
+}
+
+p { 
+  font-size: 1.0em;
+  color: #fff7b6;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
+}
+em {
+  color:#efd466
+}
+
+a {
+  color: #efd466;
+}
+
+/* REST OF PAGE */ 
+
+
+
+
+
+.box {
+  justify-content: center;
+  margin: 20px;
+  background-color: #062844;
+}
+
+
+
+/* FONTS */
+
+.aubrey-regular {
+  font-family: "Aubrey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
